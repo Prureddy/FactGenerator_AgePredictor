@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+}
+button{
+  padding: 10px; /* Equivalent to px-6 */
+  font-family: 'Poppins', sans-serif; /* Equivalent to font-poppins */
+  font-weight: 500; /* Equivalent to font-medium */
+  font-size: 18px; /* Equivalent to text-[18px] */
+  color: var(--primary-color); /* Equivalent to text-primary */
+  background-image: linear-gradient(to right, #528ac6, #155ac2); /* Equivalent to bg-blue-gradient */
+  border-radius: 10px; /* Equivalent to rounded-[10px] */
+  outline: none; /* Equivalent to outline-none */
+  justify-content: center;
+  margin-top: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+button:hover{
+  transform: scale(1.05);
+}
+.gradient-text,h1{
+  font-size: 24px; /* Set your desired font size */
+  font-weight: bold; /* Set your desired font weight */
+  background: linear-gradient(4deg, #98c8ea, #dbe1eb); /* Define the gradient background */
+  background-clip: text; /* Clip the background to the text */
+  -webkit-background-clip: text; /* For Webkit-based browsers */
+  color: transparent;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px;
+}
+
+
+/* Define the form style */
+.my-form {
+  background-color: rgb(20, 24, 24); /* Set the form background color to black */
+  padding: 20px; /* Add padding for spacing */
+  width: 300px; /* Set the form width */
+  margin: 0 auto; /* Center the form horizontally */
+  color: white;
+  border-radius: 10px;
+}
+
+/* Style the input field */
+.my-form input {
+  width: 100%; /* Make the input field fill the form's width */
+  padding: 10px; /* Add padding inside the input field */
+  border: none; /* Remove the default input border */
+  background-color: transparent; /* Make the input background transparent */
+  color: white; /* Set the text color to white */
+  outline: none; /* Remove the input focus outline */
+  font-size: 16px; /* Set the font size */
+
+}
+
+
+
