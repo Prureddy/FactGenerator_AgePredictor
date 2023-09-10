@@ -1,6 +1,8 @@
 # FactGenerator_AgePredictor
 
 This repository contains two main features: a Fact Generator and an Age Predictor[its just for fun]. The project uses free APIs from [Agify](https://api.agify.io) for age prediction and [Cat Fact Ninja](https://catfact.ninja/fact) for generating cat facts.
+![image](https://github.com/Prureddy/FactGenerator_AgePredictor/assets/99805816/fe3f9ef4-9221-49e3-8bb1-2aff1bbca1ce)
+
 
 ## Demo
 
